@@ -4,6 +4,13 @@ param (
 Add-Type -AssemblyName Microsoft.Office.Interop.Excel
 Add-Type -AssemblyName System.Windows.Forms
 
+# =============================================================================
+# CONFIGURATION
+# =============================================================================
+# NOTE: This path should match the cardholder_list_file in src/core/config.py
+$CARDHOLDER_LIST_PATH = "\\reiltys\iomgroot\DeptShare_DHSS_Nobles\Management\Director of Finance, Performance & Delivery\16. Manx Care\FAS DSC\Purchase Cards info\Card Holder List\Purchase cardholder list DSC.xls"
+# =============================================================================
+
 
 
 function Show-MessageBox {
@@ -58,7 +65,7 @@ if (-not $doneFolder) {
 }
 
 # Purchase Cardholder List workbook path
-$purchaseCardholderListPath = "\\reiltys\iomgroot\DeptShare_DHSS_Nobles\Management\Director of Finance, Performance & Delivery\16. Manx Care\FAS DSC\Purchase Cards info\Card Holder List\Purchase cardholder list DSC.xls"
+$purchaseCardholderListPath = $CARDHOLDER_LIST_PATH
 $purchaseCardholderListExcel = New-Object -ComObject Excel.Application
 $purchaseCardholderListExcel.Visible = $false
 
