@@ -182,28 +182,48 @@ class ExcelHandler:
         elif len(df.columns) >= 6:  # Assume positional columns like original script
             df['FullName'] = df.iloc[:, 4].astype(str).str.replace('-', ' ').str.strip() + " " + df.iloc[:, 5].astype(str).str.strip()
         
-        # Extract other fields based on column positions or names
+        # Map common column names to standard names
         column_mapping = {
-            'Section': 'section',
+            'Section': 'department',
             'Department': 'department', 
             'Monthly Limit': 'monthly_limit',
             'Cost Centre': 'cost_centre',
+            'CostCentre': 'cost_centre',
             'Email': 'email',
-            'Manager Email': 'manager_email'
+            'Manager Email': 'manager_email',
+            'Card Number': 'card_number',
+            'CardNumber': 'card_number'
         }
+        
+        # Rename columns if they exist
+        df = df.rename(columns=column_mapping)
         
         # Handle positional columns if named columns don't exist
         if len(df.columns) >= 14:
-            if 'Section' not in df.columns:
-                df['Section'] = df.iloc[:, 6]
-            if 'Monthly Limit' not in df.columns:
-                df['MonthlyLimit'] = df.iloc[:, 12]
-            if 'Cost Centre' not in df.columns:
-                df['CostCentre'] = df.iloc[:, 13]
+            if 'department' not in df.columns and len(df.columns) > 6:
+                df['department'] = df.iloc[:, 6]
+            if 'monthly_limit' not in df.columns and len(df.columns) > 12:
+                df['monthly_limit'] = df.iloc[:, 12]
+            if 'cost_centre' not in df.columns and len(df.columns) > 13:
+                df['cost_centre'] = df.iloc[:, 13]
+        
+        # Ensure required fields exist
+        required_fields = ['FullName', 'email', 'card_number']
+        for field in required_fields:
+            if field not in df.columns:
+                if field == 'FullName' and 'Name' in df.columns:
+                    df['FullName'] = df['Name']
+                elif field not in df.columns:
+                    logger.warning(f"Required field '{field}' not found in data")
         
         # Clean up the data
         df = df.dropna(how='all')
         
+        # Remove rows where essential data is missing
+        if 'FullName' in df.columns:
+            df = df.dropna(subset=['FullName'])
+        
+        logger.info(f"Cleaned cardholder data: {len(df)} records with columns {list(df.columns)}")
         return df
     
     def detect_duplicates(self, df: pd.DataFrame, key_columns: List[str] = None) -> pd.DataFrame:
@@ -545,7 +565,9 @@ class ExcelHandler:
                     with self.db_manager.get_session() as session:
                         existing.name = str(row.get('FullName', existing.name))
                         existing.email = str(row.get('email', existing.email))
-                        existing.department = str(row.get('department', existing.department))
+                        existing.department = str(row.get('department', existing.department) if pd.notna(row.get('department')) else existing.department)
+                        existing.manager_email = str(row.get('manager_email', existing.manager_email) if pd.notna(row.get('manager_email')) else existing.manager_email)
+                        existing.cost_centre = str(row.get('cost_centre', existing.cost_centre) if pd.notna(row.get('cost_centre')) else existing.cost_centre)
                         existing.updated_at = datetime.utcnow()
                         session.commit()
                 else:
@@ -554,7 +576,9 @@ class ExcelHandler:
                         card_number=str(row.get('card_number', f"TEMP_{synced_count}")),
                         name=str(row.get('FullName', 'Unknown')),
                         email=str(row.get('email', '')),
-                        department=str(row.get('department', ''))
+                        manager_email=str(row.get('manager_email', '') if pd.notna(row.get('manager_email')) else None),
+                        department=str(row.get('department', '') if pd.notna(row.get('department')) else None),
+                        cost_centre=str(row.get('cost_centre', '') if pd.notna(row.get('cost_centre')) else None)
                     )
                 
                 synced_count += 1
