@@ -153,21 +153,45 @@ class ExcelHandler:
         return df
     
     def load_cardholder_data(self, file_path: str, sheet_name: str = None) -> pd.DataFrame:
-        """Load cardholder information from Excel file"""
+        """Load cardholder information from Excel file, specifically handling OUTSTANDING LOGS sheet"""
         try:
             file_path = Path(file_path)
             logger.info(f"Loading cardholder data from: {file_path}")
             
-            # Read the Excel file
-            if sheet_name:
+            # Default to OUTSTANDING LOGS sheet if not specified
+            if sheet_name is None:
+                sheet_name = "OUTSTANDING LOGS"
+            
+            # Check if the sheet exists
+            try:
+                excel_file = pd.ExcelFile(file_path)
+                available_sheets = excel_file.sheet_names
+                
+                if sheet_name not in available_sheets:
+                    logger.warning(f"Sheet '{sheet_name}' not found. Available sheets: {available_sheets}")
+                    # Try to find a similar sheet
+                    for sheet in available_sheets:
+                        if 'outstanding' in sheet.lower() or 'logs' in sheet.lower():
+                            sheet_name = sheet
+                            logger.info(f"Using sheet '{sheet_name}' instead")
+                            break
+                    else:
+                        # Use the first sheet as fallback
+                        sheet_name = available_sheets[0]
+                        logger.info(f"Using first sheet '{sheet_name}' as fallback")
+                
+                # Read the Excel file
                 df = pd.read_excel(file_path, sheet_name=sheet_name)
-            else:
+                
+            except Exception as e:
+                logger.warning(f"Failed to read sheet '{sheet_name}': {e}")
+                # Try reading without specifying sheet name
                 df = pd.read_excel(file_path)
             
             # Clean and standardize cardholder data
             df = self._clean_cardholder_data(df)
             
-            logger.info(f"Successfully loaded {len(df)} cardholder records")
+            logger.info(f"Successfully loaded {len(df)} cardholder records from '{sheet_name}' sheet")
             return df
             
         except Exception as e:
@@ -175,12 +199,51 @@ class ExcelHandler:
             raise
     
     def _clean_cardholder_data(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Clean and standardize cardholder data"""
-        # Create full name if first/last names are separate
+        """Clean and standardize cardholder data, handling OUTSTANDING LOGS sheet format"""
+        
+        logger.info(f"Cleaning cardholder data with columns: {list(df.columns)}")
+        
+        # Handle OUTSTANDING LOGS sheet format
+        # Based on Bulk Mail.py, column 8 (H) contains cardholder & manager emails (semicolons)
+        # Common patterns from the original script suggest positional mapping
+        
+        # Create a cleaned dataframe
+        cleaned_df = df.copy()
+        
+        # Handle positional column mapping (like in Bulk Mail.py)
+        if len(df.columns) >= 8:
+            # Try to identify columns by position (0-indexed)
+            # Column 4 and 5 often contain first and last names
+            if len(df.columns) > 5:
+                try:
+                    first_name_col = df.iloc[:, 4] if len(df.columns) > 4 else pd.Series()
+                    last_name_col = df.iloc[:, 5] if len(df.columns) > 5 else pd.Series()
+                    
+                    # Create full name
+                    if not first_name_col.empty and not last_name_col.empty:
+                        cleaned_df['FullName'] = (
+                            first_name_col.astype(str).str.replace('-', ' ').str.strip() + 
+                            " " + 
+                            last_name_col.astype(str).str.strip()
+                        )
+                except Exception as e:
+                    logger.warning(f"Failed to create FullName from position: {e}")
+            
+            # Column 8 (index 7) typically contains email information
+            if len(df.columns) > 7:
+                try:
+                    email_col = df.iloc[:, 7]  # Column H (8th column)
+                    cleaned_df['email_data'] = email_col.astype(str)
+                    
+                    # Split email data on semicolons to get cardholder and manager emails
+                    cleaned_df['cardholder_email'] = email_col.astype(str).str.split(';').str[0].str.strip()
+                    cleaned_df['manager_email'] = email_col.astype(str).str.split(';').str[1].str.strip()
+                except Exception as e:
+                    logger.warning(f"Failed to process email column: {e}")
+        
+        # Handle named columns if they exist
         if 'First Name' in df.columns and 'Last Name' in df.columns:
-            df['FullName'] = df['First Name'].astype(str) + " " + df['Last Name'].astype(str)
-        elif len(df.columns) >= 6:  # Assume positional columns like original script
-            df['FullName'] = df.iloc[:, 4].astype(str).str.replace('-', ' ').str.strip() + " " + df.iloc[:, 5].astype(str).str.strip()
+            cleaned_df['FullName'] = df['First Name'].astype(str) + " " + df['Last Name'].astype(str)
         
         # Map common column names to standard names
         column_mapping = {
@@ -192,11 +255,69 @@ class ExcelHandler:
             'Email': 'email',
             'Manager Email': 'manager_email',
             'Card Number': 'card_number',
-            'CardNumber': 'card_number'
+            'CardNumber': 'card_number',
+            'FullName': 'name',
+            'cardholder_email': 'email',
+            'Full Name': 'name',
+            'Cardholder Name': 'name'
         }
         
         # Rename columns if they exist
-        df = df.rename(columns=column_mapping)
+        renamed_df = cleaned_df.rename(columns=column_mapping)
+        
+        # Ensure we have required columns with default values
+        required_columns = {
+            'name': '',
+            'email': '',
+            'card_number': '',
+            'department': '',
+            'cost_centre': '',
+            'manager_email': '',
+            'monthly_limit': 0,
+            'active': True
+        }
+        
+        for col, default_val in required_columns.items():
+            if col not in renamed_df.columns:
+                renamed_df[col] = default_val
+        
+        # Clean up email addresses - remove NaN and invalid entries
+        if 'email' in renamed_df.columns:
+            renamed_df['email'] = renamed_df['email'].astype(str).str.strip()
+            renamed_df['email'] = renamed_df['email'].replace(['nan', 'None', ''], None)
+            # Basic email validation
+            renamed_df.loc[~renamed_df['email'].str.contains('@', na=False), 'email'] = None
+        
+        if 'manager_email' in renamed_df.columns:
+            renamed_df['manager_email'] = renamed_df['manager_email'].astype(str).str.strip()
+            renamed_df['manager_email'] = renamed_df['manager_email'].replace(['nan', 'None', ''], None)
+            renamed_df.loc[~renamed_df['manager_email'].str.contains('@', na=False), 'manager_email'] = None
+        
+        # Clean up names
+        if 'name' in renamed_df.columns:
+            renamed_df['name'] = renamed_df['name'].astype(str).str.strip()
+            renamed_df['name'] = renamed_df['name'].replace(['nan', 'None'], '')
+        
+        # Remove rows with no name or email
+        before_count = len(renamed_df)
+        renamed_df = renamed_df[
+            (renamed_df['name'].notna()) & 
+            (renamed_df['name'] != '') & 
+            (renamed_df['email'].notna())
+        ]
+        after_count = len(renamed_df)
+        
+        if before_count != after_count:
+            logger.info(f"Filtered out {before_count - after_count} incomplete records")
+        
+        # Add timestamps
+        from datetime import datetime
+        now = datetime.now()
+        renamed_df['created_at'] = now
+        renamed_df['updated_at'] = now
+        
+        logger.info(f"Cleaned cardholder data: {len(renamed_df)} valid records")
+        return renamed_df
         
         # Handle positional columns if named columns don't exist
         if len(df.columns) >= 14:
