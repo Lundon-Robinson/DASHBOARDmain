@@ -6,11 +6,10 @@ Bulk email functionality with templates, tracking, and
 Outlook/Teams integration.
 """
 
-import os
 import re
 import smtplib
 from pathlib import Path
-from typing import List, Dict, Any, Optional, Tuple
+from typing import List, Dict, Any, Optional
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase

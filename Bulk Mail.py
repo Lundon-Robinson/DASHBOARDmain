@@ -143,7 +143,7 @@ class BulkMailerApp:
         try:
             self._build_ui()
             self._load_data_from_excel()
-            self.variables = self._generate_variable_list(self._detected_headers)
+            self.variables = BulkMailGUI._generate_variable_list(self._detected_headers)
             # create the variables window lazily (button opens it)
             self._apply_dark_theme()
             self._apply_body_font()
@@ -268,7 +268,6 @@ class BulkMailerApp:
         style.map("TButton", background=[("active", "#007acc")])
         style.configure("TCheckbutton", background=bg_color, foreground=fg_color)
 
-        widgets_to_style = [self.body, self.lst]
         try:
             self.body.configure(bg=entry_bg, fg=fg_color, insertbackground=fg_color, relief="flat", borderwidth=0,
                                 highlightthickness=highlight_thickness, highlightbackground=border_color,
@@ -546,7 +545,8 @@ class BulkMailerApp:
                 pass
 
     # ---------- Variable generation ----------
-    def _generate_variable_list(self, headers):
+    @staticmethod
+    def _generate_variable_list(headers):
         """
         From a list of header strings, generate up to 100 placeholder variables,
         sorted by likely usefulness.
@@ -659,7 +659,7 @@ class BulkMailerApp:
             vars_listbox.configure(yscrollcommand=vscroll.set)
 
             # populate
-            self.variables = self._generate_variable_list(self._detected_headers)
+            self.variables = BulkMailGUI._generate_variable_list(self._detected_headers)
             for var in self.variables:
                 vars_listbox.insert(tk.END, var)
 
@@ -774,7 +774,8 @@ class BulkMailerApp:
             return
 
     # ---------- Outlook helpers & send (with auto-replacement) ----------
-    def _get_outlook_signature(self, outlook):
+    @staticmethod
+    def _get_outlook_signature(outlook):
         try:
             tmp_mail = outlook.CreateItem(0)
             tmp_mail.Display()
@@ -859,7 +860,7 @@ class BulkMailerApp:
                     except Exception:
                         pass
 
-                signature = self._get_outlook_signature(outlook)
+                signature = BulkMailGUI._get_outlook_signature(outlook)
                 body_html = body_text_final.replace('\n', '<br>') + "<br><br>" + signature
                 mail.Subject = subject_final
                 mail.HTMLBody = body_html

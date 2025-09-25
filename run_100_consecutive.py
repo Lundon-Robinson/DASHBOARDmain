@@ -113,7 +113,7 @@ class TestHarness:
                     email=email,
                     department=department
                 )
-            except Exception as e:
+            except Exception:
                 # Ignore duplicate errors
                 pass
         
@@ -131,7 +131,7 @@ class TestHarness:
                         amount=round(100.0 + i * 25.5, 2),
                         category="Test"
                     )
-                except Exception as e:
+                except Exception:
                     # Ignore errors for test setup
                     pass
         
@@ -211,7 +211,6 @@ class TestHarness:
             }
             
             processed_subject = email_handler.process_variables(template.subject, variables)
-            processed_body = email_handler.process_variables(template.body, variables)
             
             # Test recipient parsing
             recipients = email_handler.parse_recipient_list("test1@example.com, test2@example.com")

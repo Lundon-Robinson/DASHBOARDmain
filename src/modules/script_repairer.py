@@ -6,11 +6,10 @@ Automatically scan, repair, and validate existing scripts in the codebase.
 Fixes hardcoded paths, improves error handling, and integrates with the dashboard.
 """
 
-import os
 import re
 import shutil
 from pathlib import Path
-from typing import List, Dict, Tuple, Optional
+from typing import List, Tuple, Optional
 from dataclasses import dataclass
 
 from ..core.logger import logger

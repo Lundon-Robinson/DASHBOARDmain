@@ -7,15 +7,14 @@ and provides the main GUI interface.
 """
 
 import sys
-from typing import Optional, Dict, Any
+from typing import Dict, Any
 
 try:
     from PyQt6.QtWidgets import (
         QApplication, QMainWindow, QWidget,
         QTabWidget, QStatusBar, QMenuBar, QPushButton
     )
-    from PyQt6.QtCore import Qt
-    from PyQt6.QtGui import QIcon, QAction
+    from PyQt6.QtGui import QAction
     PYQT_AVAILABLE = True
 except ImportError:
     PYQT_AVAILABLE = False
@@ -23,7 +22,7 @@ except ImportError:
 
 if not PYQT_AVAILABLE:
     import tkinter as tk
-    from tkinter import ttk, messagebox
+    from tkinter import ttk
 
 from .config import DashboardConfig
 from .logger import logger

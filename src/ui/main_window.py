@@ -7,19 +7,12 @@ Excel management, email tools, and script runner.
 """
 
 import tkinter as tk
-from tkinter import ttk, filedialog, messagebox, scrolledtext
-import threading
+from tkinter import ttk, messagebox, scrolledtext
 import queue
-from datetime import datetime, timedelta
-from pathlib import Path
-from typing import Dict, Any, List, Optional
-import json
+from datetime import datetime
 
 # Try to import matplotlib for charts
 try:
-    import matplotlib.pyplot as plt
-    from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-    import matplotlib.dates as mdates
     MATPLOTLIB_AVAILABLE = True
 except ImportError:
     MATPLOTLIB_AVAILABLE = False
@@ -27,7 +20,7 @@ except ImportError:
 from ..core.logger import logger
 from ..core.config import DashboardConfig
 from ..modules.excel_handler import ExcelHandler
-from ..modules.email_handler import EmailHandler, EmailRecipient
+from ..modules.email_handler import EmailHandler
 from ..modules.script_runner import ScriptRunner
 from ..modules.ai_assistant import AIAssistant
 
