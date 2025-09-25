@@ -51,6 +51,7 @@ class PathConfig(BaseModel):
     temp_dir: Path = Field(default_factory=lambda: Path("temp"))
     exports_dir: Path = Field(default_factory=lambda: Path("exports"))
     templates_dir: Path = Field(default_factory=lambda: Path("templates"))
+    cardholder_list_file: str = Field(default=r"\\reiltys\iomgroot\DeptShare_DHSS_Nobles\Management\Director of Finance, Performance & Delivery\16. Manx Care\FAS DSC\Purchase Cards info\Card Holder List\Purchase cardholder list DSC.xls")
 
 class DashboardConfig(BaseModel):
     """Main dashboard configuration"""
