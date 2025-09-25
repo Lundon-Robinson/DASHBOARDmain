@@ -6,12 +6,10 @@ Automated end-to-end test harness that executes full workflows
 100 times consecutively to ensure system stability and reliability.
 """
 
-import os
 import sys
 import time
 import json
 import traceback
-import subprocess
 from pathlib import Path
 from datetime import datetime, timedelta
 from typing import Dict, Any, List, Optional
@@ -25,7 +23,7 @@ from src.core.config import DashboardConfig
 from src.core.logger import setup_logging
 from src.core.database import get_db_manager
 from src.modules.excel_handler import ExcelHandler
-from src.modules.email_handler import EmailHandler, EmailRecipient
+from src.modules.email_handler import EmailHandler
 from src.modules.script_runner import ScriptRunner
 from src.modules.ai_assistant import AIAssistant
 
@@ -115,7 +113,7 @@ class TestHarness:
                     email=email,
                     department=department
                 )
-            except Exception as e:
+            except Exception:
                 # Ignore duplicate errors
                 pass
         
@@ -133,7 +131,7 @@ class TestHarness:
                         amount=round(100.0 + i * 25.5, 2),
                         category="Test"
                     )
-                except Exception as e:
+                except Exception:
                     # Ignore errors for test setup
                     pass
         
@@ -213,7 +211,6 @@ class TestHarness:
             }
             
             processed_subject = email_handler.process_variables(template.subject, variables)
-            processed_body = email_handler.process_variables(template.body, variables)
             
             # Test recipient parsing
             recipients = email_handler.parse_recipient_list("test1@example.com, test2@example.com")
@@ -449,7 +446,7 @@ sys.exit(0)
                 stats['failures'] += 1
         
         # Calculate averages
-        for test_name, stats in test_stats.items():
+        for _, stats in test_stats.items():
             if stats['total_runs'] > 0:
                 stats['avg_duration'] = stats['total_duration'] / stats['total_runs']
                 stats['success_rate'] = (stats['successes'] / stats['total_runs']) * 100

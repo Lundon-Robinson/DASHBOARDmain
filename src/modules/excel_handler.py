@@ -6,22 +6,16 @@ Advanced Excel processing with auto-sync, duplicate detection,
 pivot analysis, and report generation.
 """
 
-import os
-import shutil
 from pathlib import Path
-from typing import List, Dict, Any, Optional, Tuple
-from datetime import datetime, timedelta
-import hashlib
+from typing import List, Dict, Any
+from datetime import datetime
 
 import pandas as pd
-import numpy as np
 from openpyxl import load_workbook, Workbook
-from openpyxl.styles import Font, Fill, PatternFill, Border, Side, Alignment
-from openpyxl.utils.dataframe import dataframe_to_rows
-import xlsxwriter
+from openpyxl.styles import Font, PatternFill, Border, Side
 
 from ..core.logger import logger
-from ..core.database import get_db_manager, Cardholder, Transaction
+from ..core.database import get_db_manager, Cardholder
 
 class ExcelHandler:
     """Advanced Excel processing handler"""
@@ -183,15 +177,6 @@ class ExcelHandler:
             df['FullName'] = df.iloc[:, 4].astype(str).str.replace('-', ' ').str.strip() + " " + df.iloc[:, 5].astype(str).str.strip()
         
         # Extract other fields based on column positions or names
-        column_mapping = {
-            'Section': 'section',
-            'Department': 'department', 
-            'Monthly Limit': 'monthly_limit',
-            'Cost Centre': 'cost_centre',
-            'Email': 'email',
-            'Manager Email': 'manager_email'
-        }
-        
         # Handle positional columns if named columns don't exist
         if len(df.columns) >= 14:
             if 'Section' not in df.columns:
@@ -512,7 +497,7 @@ class ExcelHandler:
                     continue
                 
                 # Create transaction
-                transaction = self.db_manager.create_transaction(
+                self.db_manager.create_transaction(
                     cardholder_id=cardholder.id,
                     transaction_date=pd.to_datetime(row.get('date', datetime.now())),
                     merchant=str(row.get('merchant', '')),

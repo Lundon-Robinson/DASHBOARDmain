@@ -6,7 +6,6 @@ Non-GUI interface for testing and automation
 """
 
 import sys
-import os
 from pathlib import Path
 
 # Add src directory to path

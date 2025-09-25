@@ -8,9 +8,8 @@ commands, and intelligent automation.
 
 import re
 import json
-from typing import List, Dict, Any, Optional, Callable
+from typing import List, Dict, Any
 from datetime import datetime, timedelta
-from pathlib import Path
 
 try:
     import openai

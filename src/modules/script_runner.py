@@ -11,15 +11,12 @@ import sys
 import subprocess
 import threading
 import queue
-import signal
 import time
 from pathlib import Path
 from typing import Dict, List, Optional, Callable, Any
 from datetime import datetime, timedelta
 from dataclasses import dataclass
 from enum import Enum
-import shlex
-import psutil
 
 from ..core.logger import logger
 from ..core.database import get_db_manager

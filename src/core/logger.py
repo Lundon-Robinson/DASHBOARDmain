@@ -6,11 +6,9 @@ Centralized logging with file rotation, structured logging,
 and integration with external monitoring systems.
 """
 
-import os
 import sys
 import logging
 import traceback
-from datetime import datetime
 from pathlib import Path
 from typing import Optional, Any, Dict
 from loguru import logger as loguru_logger
