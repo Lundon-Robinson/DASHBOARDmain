@@ -446,7 +446,7 @@ sys.exit(0)
                 stats['failures'] += 1
         
         # Calculate averages
-        for test_name, stats in test_stats.items():
+        for _, stats in test_stats.items():
             if stats['total_runs'] > 0:
                 stats['avg_duration'] = stats['total_duration'] / stats['total_runs']
                 stats['success_rate'] = (stats['successes'] / stats['total_runs']) * 100

@@ -143,7 +143,7 @@ class BulkMailerApp:
         try:
             self._build_ui()
             self._load_data_from_excel()
-            self.variables = BulkMailGUI._generate_variable_list(self._detected_headers)
+            self.variables = self.__class__._generate_variable_list(self._detected_headers)
             # create the variables window lazily (button opens it)
             self._apply_dark_theme()
             self._apply_body_font()
@@ -659,7 +659,7 @@ class BulkMailerApp:
             vars_listbox.configure(yscrollcommand=vscroll.set)
 
             # populate
-            self.variables = BulkMailGUI._generate_variable_list(self._detected_headers)
+            self.variables = self.__class__._generate_variable_list(self._detected_headers)
             for var in self.variables:
                 vars_listbox.insert(tk.END, var)
 
@@ -860,7 +860,7 @@ class BulkMailerApp:
                     except Exception:
                         pass
 
-                signature = BulkMailGUI._get_outlook_signature(outlook)
+                signature = self.__class__._get_outlook_signature(outlook)
                 body_html = body_text_final.replace('\n', '<br>') + "<br><br>" + signature
                 mail.Subject = subject_final
                 mail.HTMLBody = body_html
