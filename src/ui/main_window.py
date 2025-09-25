@@ -15,6 +15,9 @@ from pathlib import Path
 from typing import Dict, Any, List, Optional
 import json
 
+# Data processing
+import pandas as pd
+
 # Try to import matplotlib for charts
 try:
     import matplotlib.pyplot as plt
@@ -767,11 +770,198 @@ class MainWindow:
     def _quick_export_reports(self): self._add_activity("Quick: Export reports requested")
     
     # Cardholder management methods
-    def _add_cardholder(self): messagebox.showinfo("Info", "Add cardholder functionality")
+    def _add_cardholder(self):
+        """Add new cardholder via dialog"""
+        try:
+            # Create dialog window
+            dialog = tk.Toplevel(self.root)
+            dialog.title("Add New Cardholder")
+            dialog.geometry("400x300")
+            dialog.grab_set()  # Make dialog modal
+            
+            # Create form fields
+            fields = {}
+            labels = ['Name', 'Email', 'Card Number', 'Department', 'Cost Centre', 'Manager Email']
+            
+            for i, label in enumerate(labels):
+                tk.Label(dialog, text=f"{label}:").grid(row=i, column=0, sticky="w", padx=10, pady=5)
+                entry = tk.Entry(dialog, width=30)
+                entry.grid(row=i, column=1, padx=10, pady=5)
+                fields[label.lower().replace(' ', '_')] = entry
+            
+            # Buttons
+            button_frame = tk.Frame(dialog)
+            button_frame.grid(row=len(labels), column=0, columnspan=2, pady=20)
+            
+            def save_cardholder():
+                try:
+                    # Validate required fields
+                    name = fields['name'].get().strip()
+                    email = fields['email'].get().strip()
+                    card_number = fields['card_number'].get().strip()
+                    
+                    if not name or not email or not card_number:
+                        messagebox.showerror("Validation Error", "Name, Email, and Card Number are required.")
+                        return
+                    
+                    # Create cardholder
+                    cardholder = self.excel_handler.db_manager.create_cardholder(
+                        card_number=card_number,
+                        name=name,
+                        email=email,
+                        manager_email=fields['manager_email'].get().strip() or None,
+                        department=fields['department'].get().strip() or None,
+                        cost_centre=fields['cost_centre'].get().strip() or None
+                    )
+                    
+                    # Refresh UI
+                    self._load_initial_data()
+                    self._add_activity(f"Added new cardholder: {name}")
+                    
+                    dialog.destroy()
+                    messagebox.showinfo("Success", f"Successfully added cardholder: {name}")
+                    
+                except Exception as e:
+                    error_msg = f"Failed to add cardholder: {str(e)}"
+                    messagebox.showerror("Error", error_msg)
+            
+            tk.Button(button_frame, text="Save", command=save_cardholder).pack(side="left", padx=5)
+            tk.Button(button_frame, text="Cancel", command=dialog.destroy).pack(side="left", padx=5)
+            
+        except Exception as e:
+            error_msg = f"Failed to open add cardholder dialog: {str(e)}"
+            logger.error("Add cardholder dialog failed", exception=e)
+            messagebox.showerror("Error", error_msg)
     def _edit_cardholder(self): messagebox.showinfo("Info", "Edit cardholder functionality")
-    def _delete_cardholder(self): messagebox.showinfo("Info", "Delete cardholder functionality")
-    def _import_cardholders(self): messagebox.showinfo("Info", "Import cardholders functionality")
-    def _export_cardholders(self): messagebox.showinfo("Info", "Export cardholders functionality")
+    def _delete_cardholder(self):
+        """Delete selected cardholder"""
+        try:
+            selected_items = self.cardholders_tree.selection()
+            if not selected_items:
+                messagebox.showinfo("No Selection", "Please select a cardholder to delete.")
+                return
+            
+            # Get selected cardholder details
+            item = selected_items[0]
+            values = self.cardholders_tree.item(item, 'values')
+            cardholder_name = values[0]
+            card_number = values[2]
+            
+            # Confirm deletion
+            if not messagebox.askyesno("Confirm Delete", 
+                f"Are you sure you want to delete cardholder '{cardholder_name}'?\n\nThis action cannot be undone."):
+                return
+            
+            # Find and delete from database
+            cardholder = self.excel_handler.db_manager.get_cardholder_by_card_number(card_number)
+            if cardholder:
+                with self.excel_handler.db_manager.get_session() as session:
+                    session.delete(cardholder)
+                    session.commit()
+                
+                # Refresh UI
+                self._load_initial_data()
+                self._add_activity(f"Deleted cardholder: {cardholder_name}")
+                messagebox.showinfo("Success", f"Successfully deleted cardholder: {cardholder_name}")
+            else:
+                messagebox.showerror("Error", "Cardholder not found in database.")
+                
+        except Exception as e:
+            error_msg = f"Failed to delete cardholder: {str(e)}"
+            logger.error("Delete cardholder failed", exception=e)
+            self._add_activity(f"Error: {error_msg}")
+            messagebox.showerror("Delete Error", error_msg)
+    def _import_cardholders(self):
+        """Import cardholders from Excel file"""
+        try:
+            # Open file dialog
+            file_path = filedialog.askopenfilename(
+                title="Select Cardholder Excel File",
+                filetypes=[
+                    ("Excel files", "*.xlsx *.xls"),
+                    ("All files", "*.*")
+                ]
+            )
+            
+            if not file_path:
+                return  # User cancelled
+            
+            # Show progress indicator
+            self._add_activity("Importing cardholders from Excel...")
+            self.root.update()
+            
+            # Load and process the data
+            df = self.excel_handler.load_cardholder_data(file_path)
+            
+            # Sync with database
+            self.excel_handler._sync_cardholders(df)
+            
+            # Refresh the cardholder tree view
+            self._load_initial_data()  # This will reload cardholders from database
+            
+            self._add_activity(f"Successfully imported {len(df)} cardholders")
+            messagebox.showinfo("Success", f"Successfully imported {len(df)} cardholders from {Path(file_path).name}")
+            
+        except Exception as e:
+            error_msg = f"Failed to import cardholders: {str(e)}"
+            logger.error("Cardholder import failed", exception=e)
+            self._add_activity(f"Error: {error_msg}")
+            messagebox.showerror("Import Error", error_msg)
+    def _export_cardholders(self):
+        """Export cardholders to Excel file"""
+        try:
+            if not self.cardholders:
+                messagebox.showinfo("No Data", "No cardholders to export.")
+                return
+            
+            # Open save file dialog
+            file_path = filedialog.asksaveasfilename(
+                title="Save Cardholders Export",
+                defaultextension=".xlsx",
+                filetypes=[
+                    ("Excel files", "*.xlsx"),
+                    ("CSV files", "*.csv"),
+                    ("All files", "*.*")
+                ]
+            )
+            
+            if not file_path:
+                return  # User cancelled
+            
+            self._add_activity("Exporting cardholders...")
+            self.root.update()
+            
+            # Prepare data for export
+            export_data = []
+            for cardholder in self.cardholders:
+                export_data.append({
+                    'Name': cardholder.name,
+                    'Email': cardholder.email,
+                    'Card Number': cardholder.card_number,
+                    'Department': cardholder.department or '',
+                    'Cost Centre': cardholder.cost_centre or '',
+                    'Manager Email': cardholder.manager_email or '',
+                    'Active': 'Yes' if cardholder.active else 'No',
+                    'Created': cardholder.created_at.strftime('%Y-%m-%d %H:%M:%S'),
+                    'Updated': cardholder.updated_at.strftime('%Y-%m-%d %H:%M:%S')
+                })
+            
+            df = pd.DataFrame(export_data)
+            
+            # Export based on file extension
+            if file_path.lower().endswith('.csv'):
+                df.to_csv(file_path, index=False)
+            else:
+                df.to_excel(file_path, index=False, sheet_name='Cardholders')
+            
+            self._add_activity(f"Successfully exported {len(export_data)} cardholders")
+            messagebox.showinfo("Success", f"Successfully exported {len(export_data)} cardholders to {Path(file_path).name}")
+            
+        except Exception as e:
+            error_msg = f"Failed to export cardholders: {str(e)}"
+            logger.error("Cardholder export failed", exception=e)
+            self._add_activity(f"Error: {error_msg}")
+            messagebox.showerror("Export Error", error_msg)
     def _filter_cardholders(self, event): pass  # Search functionality
     
     # Statement methods
