@@ -751,8 +751,20 @@ class MainWindow:
                 self.script_runner.cleanup()
     
     # Placeholder methods for functionality - these would be implemented with full features
-    def _import_excel(self): messagebox.showinfo("Info", "Excel import functionality")
-    def _export_data(self): messagebox.showinfo("Info", "Data export functionality") 
+    def _import_excel(self): 
+        """General Excel import functionality"""
+        try:
+            self._import_cardholders()
+        except Exception as e:
+            self._add_activity(f"Excel import error: {str(e)}")
+            logger.error("Excel import failed", exception=e)
+    def _export_data(self): 
+        """General data export functionality"""
+        try:
+            self._export_cardholders()
+        except Exception as e:
+            self._add_activity(f"Data export error: {str(e)}")
+            logger.error("Data export failed", exception=e) 
     def _show_settings(self): messagebox.showinfo("Info", "Settings dialog")
     def _run_script_dialog(self): messagebox.showinfo("Info", "Script runner dialog")
     def _send_test_email(self): messagebox.showinfo("Info", "Test email functionality")
@@ -765,7 +777,13 @@ class MainWindow:
     def _quick_generate_statements(self): self._add_activity("Quick: Generate statements requested")
     def _quick_send_email(self): self._add_activity("Quick: Send email requested")
     def _quick_run_script(self): self._add_activity("Quick: Run script requested")
-    def _quick_import_excel(self): self._add_activity("Quick: Import Excel requested")
+    def _quick_import_excel(self): 
+        """Quick action to import Excel file"""
+        try:
+            self._import_cardholders()
+        except Exception as e:
+            self._add_activity(f"Quick import error: {str(e)}")
+            logger.error("Quick import failed", exception=e)
     def _quick_view_logs(self): self._add_activity("Quick: View logs requested")
     def _quick_export_reports(self): self._add_activity("Quick: Export reports requested")
     
@@ -832,7 +850,101 @@ class MainWindow:
             error_msg = f"Failed to open add cardholder dialog: {str(e)}"
             logger.error("Add cardholder dialog failed", exception=e)
             messagebox.showerror("Error", error_msg)
-    def _edit_cardholder(self): messagebox.showinfo("Info", "Edit cardholder functionality")
+    def _edit_cardholder(self):
+        """Edit selected cardholder"""
+        try:
+            selected_items = self.cardholders_tree.selection()
+            if not selected_items:
+                messagebox.showinfo("No Selection", "Please select a cardholder to edit.")
+                return
+            
+            # Get selected cardholder details
+            item = selected_items[0]
+            values = self.cardholders_tree.item(item, 'values')
+            cardholder_name = values[0]
+            card_number = values[2]
+            
+            # Find cardholder in database
+            cardholder = self.excel_handler.db_manager.get_cardholder_by_card_number(card_number)
+            if not cardholder:
+                messagebox.showerror("Error", "Cardholder not found in database.")
+                return
+            
+            # Create edit dialog
+            dialog = tk.Toplevel(self.root)
+            dialog.title(f"Edit Cardholder: {cardholder_name}")
+            dialog.geometry("400x300")
+            dialog.grab_set()
+            
+            # Create form fields with existing data
+            fields = {}
+            field_data = [
+                ('Name', cardholder.name),
+                ('Email', cardholder.email),
+                ('Card Number', cardholder.card_number),
+                ('Department', cardholder.department or ''),
+                ('Cost Centre', cardholder.cost_centre or ''),
+                ('Manager Email', cardholder.manager_email or '')
+            ]
+            
+            for i, (label, value) in enumerate(field_data):
+                tk.Label(dialog, text=f"{label}:").grid(row=i, column=0, sticky="w", padx=10, pady=5)
+                entry = tk.Entry(dialog, width=30)
+                entry.grid(row=i, column=1, padx=10, pady=5)
+                entry.insert(0, value)  # Pre-fill with existing data
+                fields[label.lower().replace(' ', '_')] = entry
+            
+            # Active checkbox
+            active_var = tk.BooleanVar(value=cardholder.active)
+            active_cb = tk.Checkbutton(dialog, text="Active", variable=active_var)
+            active_cb.grid(row=len(field_data), column=0, columnspan=2, pady=10)
+            
+            # Buttons
+            button_frame = tk.Frame(dialog)
+            button_frame.grid(row=len(field_data)+1, column=0, columnspan=2, pady=20)
+            
+            def save_changes():
+                try:
+                    # Validate required fields
+                    name = fields['name'].get().strip()
+                    email = fields['email'].get().strip()
+                    new_card_number = fields['card_number'].get().strip()
+                    
+                    if not name or not email or not new_card_number:
+                        messagebox.showerror("Validation Error", "Name, Email, and Card Number are required.")
+                        return
+                    
+                    # Update cardholder in database
+                    with self.excel_handler.db_manager.get_session() as session:
+                        cardholder.name = name
+                        cardholder.email = email
+                        cardholder.card_number = new_card_number
+                        cardholder.department = fields['department'].get().strip() or None
+                        cardholder.cost_centre = fields['cost_centre'].get().strip() or None
+                        cardholder.manager_email = fields['manager_email'].get().strip() or None
+                        cardholder.active = active_var.get()
+                        cardholder.updated_at = datetime.utcnow()
+                        session.commit()
+                    
+                    # Refresh UI
+                    self._load_initial_data()
+                    self._add_activity(f"Updated cardholder: {name}")
+                    
+                    dialog.destroy()
+                    messagebox.showinfo("Success", f"Successfully updated cardholder: {name}")
+                    
+                except Exception as e:
+                    error_msg = f"Failed to update cardholder: {str(e)}"
+                    messagebox.showerror("Error", error_msg)
+            
+            tk.Button(button_frame, text="Save Changes", command=save_changes).pack(side="left", padx=5)
+            tk.Button(button_frame, text="Cancel", command=dialog.destroy).pack(side="left", padx=5)
+            
+        except Exception as e:
+            error_msg = f"Failed to open edit cardholder dialog: {str(e)}"
+            logger.error("Edit cardholder dialog failed", exception=e)
+            self._add_activity(f"Error: {error_msg}")
+            messagebox.showerror("Error", error_msg)
     def _delete_cardholder(self):
         """Delete selected cardholder"""
         try:
@@ -962,7 +1074,33 @@ class MainWindow:
             logger.error("Cardholder export failed", exception=e)
             self._add_activity(f"Error: {error_msg}")
             messagebox.showerror("Export Error", error_msg)
-    def _filter_cardholders(self, event): pass  # Search functionality
+    def _filter_cardholders(self, event):
+        """Filter cardholders based on search term"""
+        try:
+            search_widget = event.widget
+            search_term = search_widget.get().lower().strip()
+            
+            # Clear existing items
+            for item in self.cardholders_tree.get_children():
+                self.cardholders_tree.delete(item)
+            
+            # Add filtered cardholders
+            for cardholder in self.cardholders:
+                # Search in name, email, card number, and department
+                searchable_text = f"{cardholder.name} {cardholder.email} {cardholder.card_number} {cardholder.department or ''}".lower()
+                
+                if not search_term or search_term in searchable_text:
+                    status = "Active" if cardholder.active else "Inactive"
+                    self.cardholders_tree.insert("", tk.END, values=(
+                        cardholder.name,
+                        cardholder.email,
+                        cardholder.card_number,
+                        cardholder.department or "",
+                        status
+                    ))
+                    
+        except Exception as e:
+            logger.error("Cardholder filtering failed", exception=e)
     
     # Statement methods
     def _generate_all_statements(self): self._add_activity("Generate all statements requested")
