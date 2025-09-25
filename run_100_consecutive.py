@@ -6,12 +6,10 @@ Automated end-to-end test harness that executes full workflows
 100 times consecutively to ensure system stability and reliability.
 """
 
-import os
 import sys
 import time
 import json
 import traceback
-import subprocess
 from pathlib import Path
 from datetime import datetime, timedelta
 from typing import Dict, Any, List, Optional
@@ -25,7 +23,7 @@ from src.core.config import DashboardConfig
 from src.core.logger import setup_logging
 from src.core.database import get_db_manager
 from src.modules.excel_handler import ExcelHandler
-from src.modules.email_handler import EmailHandler, EmailRecipient
+from src.modules.email_handler import EmailHandler
 from src.modules.script_runner import ScriptRunner
 from src.modules.ai_assistant import AIAssistant
 

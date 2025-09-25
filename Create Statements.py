@@ -6,6 +6,7 @@ from datetime import datetime
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from tkinter import ttk
+import xlwings as xw
 
 # Local log file for user-facing diagnostics
 LOG_FILE = r"C:\Users\NADLUROB\Desktop\Dash\log.txt"
@@ -81,8 +82,6 @@ def load_cardholder_info(lookup_path):
 
     df = df[['FullName', 'Section', 'MonthlyLimit', 'CostCentre']]
     return df
-
-import xlwings as xw
 
 def clear_and_copy_to_template_xw(working_template_file, treasury_data_df, data_tab_name='Data'):
     """Clear the data tab in the template and copy treasury data using xlwings."""

@@ -6,9 +6,8 @@ SQLAlchemy-based database management with models for
 cardholders, transactions, logs, and application state.
 """
 
-import asyncio
 from datetime import datetime
-from typing import Optional, List, Dict, Any
+from typing import Optional, List, Any
 from pathlib import Path
 
 from sqlalchemy import create_engine, Column, Integer, String, DateTime, Float, Boolean, Text, ForeignKey

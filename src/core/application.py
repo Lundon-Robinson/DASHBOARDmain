@@ -7,17 +7,14 @@ and provides the main GUI interface.
 """
 
 import sys
-import asyncio
 from typing import Optional, Dict, Any
-from pathlib import Path
 
 try:
     from PyQt6.QtWidgets import (
-        QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
-        QTabWidget, QStatusBar, QMenuBar, QSplitter, QSystemTrayIcon,
-        QMenu, QLabel, QPushButton
+        QApplication, QMainWindow, QWidget,
+        QTabWidget, QStatusBar, QMenuBar, QPushButton
     )
-    from PyQt6.QtCore import Qt, QTimer, QThread, pyqtSignal
+    from PyQt6.QtCore import Qt
     from PyQt6.QtGui import QIcon, QAction
     PYQT_AVAILABLE = True
 except ImportError:
