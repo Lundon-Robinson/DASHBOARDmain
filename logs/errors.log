@@ -5000,3 +5000,4 @@
 (Background on this error at: https://sqlalche.me/e/20/e3q8)
 2025-09-25 11:36:08 | ERROR    | src.core.logger:error:112 - Reached maximum cycle limit (1000), stopping
 2025-09-25 11:36:08 | ERROR    | src.core.logger:error:112 - ❌ FAILED: Only achieved 0 consecutive successes out of 3 target
+2025-09-25 11:42:03 | CRITICAL | src.core.logger:critical:116 - Uncaught exception

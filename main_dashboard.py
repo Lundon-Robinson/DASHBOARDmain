@@ -16,11 +16,11 @@ from pathlib import Path
 # Add src directory to path
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
-from src.core.application import DashboardApplication
 from src.core.config import DashboardConfig
 from src.core.logger import setup_logging
+from src.core.application import run_dashboard
 
-async def main():
+def main():
     """Main application entry point"""
     try:
         # Setup logging
@@ -29,14 +29,19 @@ async def main():
         
         # Load configuration
         config = DashboardConfig()
+        logger.info(f"Configuration loaded - Theme: {config.ui.theme}, Database: {config.database.url}")
         
-        # Create and run application
-        app = DashboardApplication(config)
-        await app.run()
+        # Run dashboard
+        run_dashboard(config)
         
+    except KeyboardInterrupt:
+        print("\nDashboard stopped by user")
+        sys.exit(0)
     except Exception as e:
         print(f"Failed to start dashboard: {e}")
+        import traceback
+        traceback.print_exc()
         sys.exit(1)
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

@@ -257,35 +257,23 @@ class DashboardApplication:
             }
         }
 
-# Fallback main window implementations
-class MainWindowPyQt(QMainWindow):
-    """PyQt6 main window - will be replaced by proper implementation"""
+# Simplified run function for non-async use
+def run_dashboard(config: DashboardConfig = None):
+    """Simple function to run the dashboard"""
+    if config is None:
+        config = DashboardConfig()
     
-    def __init__(self, dashboard_app):
-        super().__init__()
-        self.dashboard_app = dashboard_app
-        self.setWindowTitle("Advanced Finance Dashboard")
-        self.setGeometry(100, 100, 1400, 900)
-        
-        # Placeholder central widget
-        central_widget = QWidget()
-        self.setCentralWidget(central_widget)
-        
-        layout = QVBoxLayout()
-        layout.addWidget(QLabel("Advanced Finance Dashboard - Loading..."))
-        central_widget.setLayout(layout)
-
-class MainWindowTkinter:
-    """Tkinter main window - will be replaced by proper implementation"""
+    app = DashboardApplication(config)
     
-    def __init__(self, root, dashboard_app):
-        self.root = root
-        self.dashboard_app = dashboard_app
-        
-        # Placeholder layout
-        main_frame = ttk.Frame(root)
-        main_frame.pack(fill="both", expand=True, padx=10, pady=10)
-        
-        ttk.Label(main_frame, text="Advanced Finance Dashboard - Loading...").pack()
+    # Run synchronously
+    try:
+        main_window = MainWindow(config)
+        main_window.run()
+    except Exception as e:
+        logger.error("Dashboard run failed", exception=e)
+        raise
+    finally:
+        if hasattr(app, 'script_runner') and app.script_runner:
+            app.script_runner.cleanup()
 
-__all__ = ['DashboardApplication']
+__all__ = ['DashboardApplication', 'run_dashboard']
