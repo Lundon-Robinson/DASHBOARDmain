@@ -1,0 +1,266 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>import os import re import sys import tkinter as tk from tkinter import ttk, filedialog, messagebox,...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>38845</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>import os import traceback import pandas as pd from openpyxl import load_workbook from datetime impo...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>18606</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/cli_demo.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cli_demo.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; Command Line Interface for Dashboard ==================================== Non-GUI interface for...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>4502</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element># gui.py import sys import os import shlex import subprocess import traceback import datetime from P...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>17840</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/main_dashboard.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/main_dashboard.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; Advanced Finance/Admin Dashboard ================================= A comprehensive, feature-pac...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>1240</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/process_delegation.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/process_delegation.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>import sys import re import time import fitz # PyMuPDF import xlwings as xw # --- Constants --- WO...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>13814</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/process_delegation.py</file>
+  <line>4</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/process_delegation.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package containing module 'fitz' is not listed in the project requirements</description>
+  <highlighted_element>fitz</highlighted_element>
+  <language>Python</language>
+  <offset>7</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/run_100_consecutive.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/run_100_consecutive.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; 100 Consecutive Test Runner =========================== Automated end-to-end test harness that ...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>20005</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/__init__.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/__init__.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element># Core application components from .config import DashboardConfig from .logger import setup_logging ...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>508</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/application.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/application.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; Main Dashboard Application ========================== The core application class that coordinat...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>9131</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/config.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/config.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; Configuration Management ======================== Centralized configuration system with environ...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>5625</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; Database Management =================== SQLAlchemy-based database management with models for ca...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>13411</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/logger.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/logger.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; Advanced Logging System ======================= Centralized logging with file rotation, structu...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>5970</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/__init__.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/__init__.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element># Modules placeholder</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; AI Assistant Module =================== AI-powered assistant for log analysis, natural language...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>19845</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; Email Handler Module ==================== Bulk email functionality with templates, tracking, an...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>19993</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; Excel Handler Module ==================== Advanced Excel processing with auto-sync, duplicate d...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>23536</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_repairer.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_repairer.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; Legacy Script Repair Module =========================== Automatically scan, repair, and validat...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>13628</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_runner.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_runner.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; Script Runner Module ==================== Advanced script execution with monitoring, scheduling...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>17976</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/__init__.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/__init__.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element># Module placeholders</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element>&quot;&quot;&quot; Main Window UI ============== Advanced multi-tabbed main window interface with dashboard, Excel...</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>38237</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/utils/__init__.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/utils/__init__.py" />
+  <problem_class id="PyPackageRequirementsInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unsatisfied package requirements</problem_class>
+  <description>Package requirements 'customtkinter&gt;=5.2.0', 'tkinter', 'exchangelib&gt;=5.0.0', 'openai&gt;=1.0.0', 'transformers&gt;=4.30.0', 'torch&gt;=2.0.0', 'langchain&gt;=0.1.0', 'fastapi&gt;=0.100.0', 'uvicorn&gt;=0.23.0', 'sqlite3', 'alembic&gt;=1.11.0', 'apscheduler&gt;=3.10.0', 'celery&gt;=5.3.0', 'redis&gt;=4.6.0', 'configparser', 'sentry-sdk&gt;=1.30.0', 'watchdog&gt;=3.0.0', 'pathlib2&gt;=2.3.0', 'httpx&gt;=0.24.0', 'websockets&gt;=11.0.0', 'pytest&gt;=7.4.0', 'pytest-cov&gt;=4.1.0', 'pytest-mock&gt;=3.11.0', 'pytest-asyncio&gt;=0.21.0', 'black&gt;=23.7.0', 'flake8&gt;=6.0.0', 'mypy&gt;=1.5.0', 'isort&gt;=5.12.0', 'coverage&gt;=7.2.0', 'keyring&gt;=24.0.0', 'msal&gt;=1.23.0', 'msgraph-sdk&gt;=1.0.0' are not satisfied</description>
+  <highlighted_element># Utils placeholder</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>19</length>
+</problem>
+</problems>

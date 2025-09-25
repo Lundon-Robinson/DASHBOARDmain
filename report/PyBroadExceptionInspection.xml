@@ -1,0 +1,494 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>17</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>11</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>37</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>11</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>49</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>11</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>156</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>23</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>263</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>279</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>288</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>19</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>335</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>23</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>355</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>23</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>374</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>27</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>389</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>23</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>398</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>23</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>409</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>27</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>418</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>23</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>476</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>27</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>532</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>19</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>537</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>19</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>541</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>19</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>545</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>19</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>724</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>23</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>729</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>27</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>741</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>23</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>784</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>19</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>787</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>859</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>27</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>872</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>27</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>883</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>27</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>25</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>11</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>36</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>38</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>11</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>111</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>116</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>150</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>155</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>228</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>23</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>309</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>23</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/process_delegation.py</file>
+  <line>208</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/process_delegation.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/run_100_consecutive.py</file>
+  <line>118</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/run_100_consecutive.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>19</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/run_100_consecutive.py</file>
+  <line>136</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/run_100_consecutive.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>Python</language>
+  <offset>23</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>217</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>except</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>344</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyBroadExceptionInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Unclear exception clauses</problem_class>
+  <description>Too broad exception clause</description>
+  <highlighted_element>except</highlighted_element>
+  <language>Python</language>
+  <offset>16</offset>
+  <length>6</length>
+</problem>
+</problems>

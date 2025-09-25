@@ -1,0 +1,590 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/cli_demo.py</file>
+  <line>9</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cli_demo.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import os&lt;/code&gt;</description>
+  <highlighted_element>import os</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/main_dashboard.py</file>
+  <line>12</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/main_dashboard.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import os&lt;/code&gt;</description>
+  <highlighted_element>import os</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/main_dashboard.py</file>
+  <line>13</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/main_dashboard.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import asyncio&lt;/code&gt;</description>
+  <highlighted_element>import asyncio</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/process_delegation.py</file>
+  <line>32</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/process_delegation.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unresolved attribute reference 'get_text' for class 'Page'</description>
+  <highlighted_element>get_text</highlighted_element>
+  <language>Python</language>
+  <offset>36</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/run_100_consecutive.py</file>
+  <line>9</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/run_100_consecutive.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import os&lt;/code&gt;</description>
+  <highlighted_element>import os</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/run_100_consecutive.py</file>
+  <line>14</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/run_100_consecutive.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import subprocess&lt;/code&gt;</description>
+  <highlighted_element>import subprocess</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/run_100_consecutive.py</file>
+  <line>28</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/run_100_consecutive.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;EmailRecipient&lt;/code&gt;</description>
+  <highlighted_element>EmailRecipient</highlighted_element>
+  <language>Python</language>
+  <offset>52</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/application.py</file>
+  <line>10</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/application.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import asyncio&lt;/code&gt;</description>
+  <highlighted_element>import asyncio</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/application.py</file>
+  <line>11</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/application.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;Optional&lt;/code&gt;</description>
+  <highlighted_element>Optional</highlighted_element>
+  <language>Python</language>
+  <offset>19</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/application.py</file>
+  <line>12</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/application.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;from pathlib import Path&lt;/code&gt;</description>
+  <highlighted_element>from pathlib import Path</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/application.py</file>
+  <line>13</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/application.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import PyQt6.QtCore as QtCore&lt;/code&gt;</description>
+  <highlighted_element>import PyQt6.QtCore as QtCore</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>29</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/application.py</file>
+  <line>30</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/application.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;messagebox&lt;/code&gt;</description>
+  <highlighted_element>messagebox</highlighted_element>
+  <language>Python</language>
+  <offset>29</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/application.py</file>
+  <line>85</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/application.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unresolved reference 'MainWindowPyQt'</description>
+  <highlighted_element>MainWindowPyQt</highlighted_element>
+  <language>Python</language>
+  <offset>27</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/application.py</file>
+  <line>112</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/application.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unresolved reference 'MainWindowTkinter'</description>
+  <highlighted_element>MainWindowTkinter</highlighted_element>
+  <language>Python</language>
+  <offset>27</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>9</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import asyncio&lt;/code&gt;</description>
+  <highlighted_element>import asyncio</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>11</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;Dict&lt;/code&gt;</description>
+  <highlighted_element>Dict</highlighted_element>
+  <language>Python</language>
+  <offset>35</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/logger.py</file>
+  <line>9</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/logger.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import os&lt;/code&gt;</description>
+  <highlighted_element>import os</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/logger.py</file>
+  <line>13</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/logger.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;from datetime import datetime&lt;/code&gt;</description>
+  <highlighted_element>from datetime import datetime</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>29</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>11</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;Optional&lt;/code&gt;</description>
+  <highlighted_element>Optional</highlighted_element>
+  <language>Python</language>
+  <offset>36</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>11</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;Callable&lt;/code&gt;</description>
+  <highlighted_element>Callable</highlighted_element>
+  <language>Python</language>
+  <offset>46</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>13</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;from pathlib import Path&lt;/code&gt;</description>
+  <highlighted_element>from pathlib import Path</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>16</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="INFO_ATTRIBUTES">Unresolved references</problem_class>
+  <description>'openai' in the try block with 'except ImportError' should also be defined in the except block</description>
+  <highlighted_element>openai</highlighted_element>
+  <language>Python</language>
+  <offset>11</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>9</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import os&lt;/code&gt;</description>
+  <highlighted_element>import os</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>13</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;Tuple&lt;/code&gt;</description>
+  <highlighted_element>Tuple</highlighted_element>
+  <language>Python</language>
+  <offset>46</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>22</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="INFO_ATTRIBUTES">Unresolved references</problem_class>
+  <description>'win32' in the try block with 'except ImportError' should also be defined in the except block</description>
+  <highlighted_element>win32</highlighted_element>
+  <language>Python</language>
+  <offset>30</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>9</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import os&lt;/code&gt;</description>
+  <highlighted_element>import os</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>10</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import shutil&lt;/code&gt;</description>
+  <highlighted_element>import shutil</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>12</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;Optional&lt;/code&gt;</description>
+  <highlighted_element>Optional</highlighted_element>
+  <language>Python</language>
+  <offset>36</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>12</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;Tuple&lt;/code&gt;</description>
+  <highlighted_element>Tuple</highlighted_element>
+  <language>Python</language>
+  <offset>46</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>13</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;timedelta&lt;/code&gt;</description>
+  <highlighted_element>timedelta</highlighted_element>
+  <language>Python</language>
+  <offset>31</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>14</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import hashlib&lt;/code&gt;</description>
+  <highlighted_element>import hashlib</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>17</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import numpy as np&lt;/code&gt;</description>
+  <highlighted_element>import numpy as np</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>19</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;Fill&lt;/code&gt;</description>
+  <highlighted_element>Fill</highlighted_element>
+  <language>Python</language>
+  <offset>34</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>19</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;Alignment&lt;/code&gt;</description>
+  <highlighted_element>Alignment</highlighted_element>
+  <language>Python</language>
+  <offset>67</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>20</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;from openpyxl.utils.dataframe import dataframe_to_rows&lt;/code&gt;</description>
+  <highlighted_element>from openpyxl.utils.dataframe import dataframe_to_rows</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>54</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>21</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import xlsxwriter&lt;/code&gt;</description>
+  <highlighted_element>import xlsxwriter</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>24</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;Transaction&lt;/code&gt;</description>
+  <highlighted_element>Transaction</highlighted_element>
+  <language>Python</language>
+  <offset>56</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_repairer.py</file>
+  <line>9</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_repairer.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import os&lt;/code&gt;</description>
+  <highlighted_element>import os</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_repairer.py</file>
+  <line>13</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_repairer.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;Dict&lt;/code&gt;</description>
+  <highlighted_element>Dict</highlighted_element>
+  <language>Python</language>
+  <offset>25</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_runner.py</file>
+  <line>14</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_runner.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import signal&lt;/code&gt;</description>
+  <highlighted_element>import signal</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_runner.py</file>
+  <line>21</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_runner.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import shlex&lt;/code&gt;</description>
+  <highlighted_element>import shlex</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_runner.py</file>
+  <line>22</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_runner.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import psutil&lt;/code&gt;</description>
+  <highlighted_element>import psutil</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>10</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;filedialog&lt;/code&gt;</description>
+  <highlighted_element>filedialog</highlighted_element>
+  <language>Python</language>
+  <offset>25</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>11</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import threading&lt;/code&gt;</description>
+  <highlighted_element>import threading</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>13</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;timedelta&lt;/code&gt;</description>
+  <highlighted_element>timedelta</highlighted_element>
+  <language>Python</language>
+  <offset>31</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>14</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;from pathlib import Path&lt;/code&gt;</description>
+  <highlighted_element>from pathlib import Path</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>15</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;from typing import Dict, Any, List, Optional&lt;/code&gt;</description>
+  <highlighted_element>from typing import Dict, Any, List, Optional</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>44</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>16</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;import json&lt;/code&gt;</description>
+  <highlighted_element>import json</highlighted_element>
+  <language>Python</language>
+  <offset>0</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>30</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyUnresolvedReferencesInspection" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Unresolved references</problem_class>
+  <description>Unused import statement &lt;code&gt;EmailRecipient&lt;/code&gt;</description>
+  <highlighted_element>EmailRecipient</highlighted_element>
+  <language>Python</language>
+  <offset>50</offset>
+  <length>14</length>
+</problem>
+</problems>

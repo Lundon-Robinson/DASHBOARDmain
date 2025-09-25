@@ -1,0 +1,14 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/Makefile</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Makefile" />
+  <problem_class id="ProblematicWhitespace" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Problematic whitespace</problem_class>
+  <description>File 'Makefile' uses tabs for indentation</description>
+  <highlighted_element># Makefile for Advanced Finance Dashboard .PHONY: help install install-dev test test-coverage lint ...</highlighted_element>
+  <language>textmate</language>
+  <offset>0</offset>
+  <length>1817</length>
+</problem>
+</problems>

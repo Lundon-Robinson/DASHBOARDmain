@@ -1,0 +1,26 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/.gitignore</file>
+  <line>72</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/.gitignore" />
+  <problem_class id="IgnoreFileDuplicateEntry" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Ignore file duplicates</problem_class>
+  <description>&lt;code&gt;*~&lt;/code&gt; pattern is defined more than once #loc</description>
+  <highlighted_element>*~</highlighted_element>
+  <language>IgnoreLang</language>
+  <offset>0</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/.gitignore</file>
+  <line>80</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/.gitignore" />
+  <problem_class id="IgnoreFileDuplicateEntry" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Ignore file duplicates</problem_class>
+  <description>&lt;code&gt;*.so&lt;/code&gt; pattern is defined more than once #loc</description>
+  <highlighted_element>*.so</highlighted_element>
+  <language>IgnoreLang</language>
+  <offset>0</offset>
+  <length>4</length>
+</problem>
+</problems>

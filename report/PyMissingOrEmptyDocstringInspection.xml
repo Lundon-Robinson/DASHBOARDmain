@@ -1,0 +1,662 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element />
+  <language>Python</language>
+  <offset>0</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>31</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>log_uncaught_exceptions</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>43</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>log_error</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>114</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>repl</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>121</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>BulkMailerApp</highlighted_element>
+  <language>Python</language>
+  <offset>6</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>558</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>add</highlighted_element>
+  <language>Python</language>
+  <offset>16</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>667</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>insert_selected</highlighted_element>
+  <language>Python</language>
+  <offset>16</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>682</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>on_search_change</highlighted_element>
+  <language>Python</language>
+  <offset>16</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>695</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>on_dblclick</highlighted_element>
+  <language>Python</language>
+  <offset>16</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>791</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>clean_emails</highlighted_element>
+  <language>Python</language>
+  <offset>12</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element />
+  <language>Python</language>
+  <offset>0</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>336</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>browse_file</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>342</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>browse_folder</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>348</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>run_gui</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>395</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>on_run</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>432</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>main</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element />
+  <language>Python</language>
+  <offset>0</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>19</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>log_uncaught_exceptions</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>42</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>ScriptRunnerWorker</highlighted_element>
+  <language>Python</language>
+  <offset>6</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>63</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>run</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>163</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>Terminal</highlighted_element>
+  <language>Python</language>
+  <offset>6</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>179</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>write_output</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>183</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>clear_terminal</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>189</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>DragDropButton</highlighted_element>
+  <language>Python</language>
+  <offset>6</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>211</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>dragEnterEvent</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>219</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>dropEvent</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>231</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>run_delegation_script_threaded</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>30</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>253</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>CustomTitleBar</highlighted_element>
+  <language>Python</language>
+  <offset>6</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>266</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>init_ui</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>310</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>mousePressEvent</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>314</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>mouseMoveEvent</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>320</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>ScriptRunnerApp</highlighted_element>
+  <language>Python</language>
+  <offset>6</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>323</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>receive_logs_with_month</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>366</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>init_ui</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>415</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>toggle_terminal_visibility</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>26</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>427</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>run_process</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>456</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>run_command</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>465</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>run_script</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>473</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>clear_terminal</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/process_delegation.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/process_delegation.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element />
+  <language>Python</language>
+  <offset>0</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/process_delegation.py</file>
+  <line>67</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/process_delegation.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>extract_limits</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/process_delegation.py</file>
+  <line>101</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/process_delegation.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>parse_page4</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/process_delegation.py</file>
+  <line>102</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/process_delegation.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>extract_section</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/process_delegation.py</file>
+  <line>142</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/process_delegation.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>find_first_empty_row</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/process_delegation.py</file>
+  <line>155</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/process_delegation.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>get_next_row_and_count</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/process_delegation.py</file>
+  <line>183</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/process_delegation.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>update_excel</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/process_delegation.py</file>
+  <line>329</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/process_delegation.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>main</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/__init__.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/__init__.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element />
+  <language>Python</language>
+  <offset>0</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/logger.py</file>
+  <line>75</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/logger.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>InterceptHandler</highlighted_element>
+  <language>Python</language>
+  <offset>14</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/logger.py</file>
+  <line>76</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/logger.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>emit</highlighted_element>
+  <language>Python</language>
+  <offset>16</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/__init__.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/__init__.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element />
+  <language>Python</language>
+  <offset>0</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_runner.py</file>
+  <line>241</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_runner.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>monitor_output</highlighted_element>
+  <language>Python</language>
+  <offset>12</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_runner.py</file>
+  <line>329</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_runner.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element>monitor</highlighted_element>
+  <language>Python</language>
+  <offset>12</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/__init__.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/__init__.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element />
+  <language>Python</language>
+  <offset>0</offset>
+  <length>0</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/utils/__init__.py</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/utils/__init__.py" />
+  <problem_class id="PyMissingOrEmptyDocstringInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Missing or empty docstring</problem_class>
+  <description>Missing docstring</description>
+  <highlighted_element />
+  <language>Python</language>
+  <offset>0</offset>
+  <length>0</length>
+</problem>
+</problems>

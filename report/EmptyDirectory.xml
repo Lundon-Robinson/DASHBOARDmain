@@ -1,0 +1,20 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/temp</file>
+  <entry_point TYPE="dir" FQNAME="$PROJECT_DIR$/temp" />
+  <problem_class id="EmptyDirectory" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty directory</problem_class>
+  <hints />
+  <description>Empty directory &lt;code&gt;temp&lt;/code&gt;</description>
+  <highlighted_element />
+  <language />
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/templates/email</file>
+  <entry_point TYPE="dir" FQNAME="$PROJECT_DIR$/templates/email" />
+  <problem_class id="EmptyDirectory" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Empty directory</problem_class>
+  <hints />
+  <description>Empty directory &lt;code&gt;templates/email&lt;/code&gt;</description>
+  <highlighted_element />
+  <language />
+</problem>
+</problems>

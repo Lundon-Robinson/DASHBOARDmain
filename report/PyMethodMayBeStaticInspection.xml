@@ -1,0 +1,566 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>549</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_generate_variable_list&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_generate_variable_list</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>777</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_get_outlook_signature&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_get_outlook_signature</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/config.py</file>
+  <line>85</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/config.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_load_config_file&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_load_config_file</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/config.py</file>
+  <line>98</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/config.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_load_from_env&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_load_from_env</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/logger.py</file>
+  <line>73</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/logger.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_setup_standard_logging&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_setup_standard_logging</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/logger.py</file>
+  <line>94</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/logger.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;info&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>info</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/logger.py</file>
+  <line>98</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/logger.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;debug&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>debug</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/logger.py</file>
+  <line>102</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/logger.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;warning&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>warning</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/logger.py</file>
+  <line>106</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/logger.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;error&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>error</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/logger.py</file>
+  <line>114</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/logger.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;critical&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>critical</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>431</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;suggest_actions&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>suggest_actions</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>455</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;explain_error&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>explain_error</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>474</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;predict_anomalies&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>predict_anomalies</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>205</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;process_variables&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>process_variables</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>463</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;find_attachments_by_name&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>find_attachments_by_name</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>519</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;validate_email&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>validate_email</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>81</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_smart_read_excel&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_smart_read_excel</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>109</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_clean_treasury_data&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_clean_treasury_data</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>177</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_clean_cardholder_data&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_clean_cardholder_data</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>209</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;detect_duplicates&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>detect_duplicates</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>223</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;merge_data_smart&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>merge_data_smart</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>256</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;create_pivot_analysis&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>create_pivot_analysis</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>345</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_style_statement&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_style_statement</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>400</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;export_to_pdf&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>export_to_pdf</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>447</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;validate_data&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>validate_data</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_repairer.py</file>
+  <line>62</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_repairer.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_scan_script&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_scan_script</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_repairer.py</file>
+  <line>220</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_repairer.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_fix_hardcoded_paths&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_fix_hardcoded_paths</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_repairer.py</file>
+  <line>248</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_repairer.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_fix_exception_handling&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_fix_exception_handling</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_repairer.py</file>
+  <line>258</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_repairer.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_fix_optional_imports&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_fix_optional_imports</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_repairer.py</file>
+  <line>275</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_repairer.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_fix_string_formatting&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_fix_string_formatting</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_repairer.py</file>
+  <line>302</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_repairer.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;create_integration_module&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>create_integration_module</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_runner.py</file>
+  <line>222</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_runner.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_build_command&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_build_command</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_runner.py</file>
+  <line>447</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_runner.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;schedule_script&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>schedule_script</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>751</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_import_excel&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_import_excel</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>752</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_export_data&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_export_data</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>753</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_show_settings&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_show_settings</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>754</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_run_script_dialog&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_run_script_dialog</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>755</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_send_test_email&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_send_test_email</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>756</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_repair_scripts&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_repair_scripts</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>757</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_show_system_status&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_show_system_status</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>759</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_show_user_guide&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_show_user_guide</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>770</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_add_cardholder&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_add_cardholder</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>771</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_edit_cardholder&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_edit_cardholder</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>772</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_delete_cardholder&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_delete_cardholder</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>773</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_import_cardholders&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_import_cardholders</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>774</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_export_cardholders&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_export_cardholders</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>780</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyMethodMayBeStaticInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Method is not declared static</problem_class>
+  <description>Method &lt;code&gt;_preview_statement&lt;/code&gt; may be 'static'</description>
+  <highlighted_element>_preview_statement</highlighted_element>
+  <language>Python</language>
+  <offset>8</offset>
+  <length>18</length>
+</problem>
+</problems>

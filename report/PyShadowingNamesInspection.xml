@@ -1,0 +1,146 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>33</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyShadowingNamesInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Shadowing names from outer scopes</problem_class>
+  <description>Shadows name 'f' from outer scope</description>
+  <highlighted_element>f</highlighted_element>
+  <language>Python</language>
+  <offset>54</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>45</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyShadowingNamesInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Shadowing names from outer scopes</problem_class>
+  <description>Shadows name 'f' from outer scope</description>
+  <highlighted_element>f</highlighted_element>
+  <language>Python</language>
+  <offset>54</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>122</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyShadowingNamesInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Shadowing names from outer scopes</problem_class>
+  <description>Shadows name 'root' from outer scope</description>
+  <highlighted_element>root</highlighted_element>
+  <language>Python</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>611</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyShadowingNamesInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Shadowing names from outer scopes</problem_class>
+  <description>Shadows name 'ex' from outer scope</description>
+  <highlighted_element>ex</highlighted_element>
+  <language>Python</language>
+  <offset>16</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>671</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyShadowingNamesInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Shadowing names from outer scopes</problem_class>
+  <description>Shadows name 'var' from outer scope</description>
+  <highlighted_element>var</highlighted_element>
+  <language>Python</language>
+  <offset>16</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>700</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyShadowingNamesInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Shadowing names from outer scopes</problem_class>
+  <description>Shadows name 'e' from outer scope</description>
+  <highlighted_element>e</highlighted_element>
+  <language>Python</language>
+  <offset>49</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>768</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyShadowingNamesInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Shadowing names from outer scopes</problem_class>
+  <description>Shadows name 'f' from outer scope</description>
+  <highlighted_element>f</highlighted_element>
+  <language>Python</language>
+  <offset>27</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>769</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyShadowingNamesInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Shadowing names from outer scopes</problem_class>
+  <description>Shadows name 'f' from outer scope</description>
+  <highlighted_element>f</highlighted_element>
+  <language>Python</language>
+  <offset>72</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>794</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyShadowingNamesInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Shadowing names from outer scopes</problem_class>
+  <description>Shadows name 'e' from outer scope</description>
+  <highlighted_element>e</highlighted_element>
+  <language>Python</language>
+  <offset>36</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>795</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyShadowingNamesInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Shadowing names from outer scopes</problem_class>
+  <description>Shadows name 'e' from outer scope</description>
+  <highlighted_element>e</highlighted_element>
+  <language>Python</language>
+  <offset>34</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>868</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyShadowingNamesInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Shadowing names from outer scopes</problem_class>
+  <description>Shadows name 'f' from outer scope</description>
+  <highlighted_element>f</highlighted_element>
+  <language>Python</language>
+  <offset>20</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/logger.py</file>
+  <line>162</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/logger.py" />
+  <problem_class id="PyShadowingNamesInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Shadowing names from outer scopes</problem_class>
+  <description>Shadows name 'logger' from outer scope</description>
+  <highlighted_element>logger</highlighted_element>
+  <language>Python</language>
+  <offset>4</offset>
+  <length>6</length>
+</problem>
+</problems>

@@ -1,0 +1,314 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>201</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>orient=&quot;vertical&quot;</highlighted_element>
+  <language>Python</language>
+  <offset>38</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>227</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>width=80</highlighted_element>
+  <language>Python</language>
+  <offset>40</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>229</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>orient=&quot;vertical&quot;</highlighted_element>
+  <language>Python</language>
+  <offset>46</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>657</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>orient=&quot;vertical&quot;</highlighted_element>
+  <language>Python</language>
+  <offset>48</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>446</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>data_tab_name='Data'</highlighted_element>
+  <language>Python</language>
+  <offset>75</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/Create Statements.py</file>
+  <line>448</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Create Statements.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>create_files_tab='Create Files'</highlighted_element>
+  <language>Python</language>
+  <offset>72</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gui.py</file>
+  <line>463</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gui.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>cwd=None</highlighted_element>
+  <language>Python</language>
+  <offset>35</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/run_100_consecutive.py</file>
+  <line>297</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/run_100_consecutive.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>&quot;today&quot;</highlighted_element>
+  <language>Python</language>
+  <offset>53</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/config.py</file>
+  <line>90</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/config.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>'r'</highlighted_element>
+  <language>Python</language>
+  <offset>28</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/config.py</file>
+  <line>93</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/config.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>'r'</highlighted_element>
+  <language>Python</language>
+  <offset>28</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/config.py</file>
+  <line>146</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/config.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>default_flow_style=False</highlighted_element>
+  <language>Python</language>
+  <offset>47</offset>
+  <length>24</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>309</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>'r'</highlighted_element>
+  <language>Python</language>
+  <offset>32</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>402</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>'today'</highlighted_element>
+  <language>Python</language>
+  <offset>45</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>174</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>'r'</highlighted_element>
+  <language>Python</language>
+  <offset>37</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>269</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>status=&quot;sent&quot;</highlighted_element>
+  <language>Python</language>
+  <offset>16</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>305</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>'plain'</highlighted_element>
+  <language>Python</language>
+  <offset>42</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>341</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>status=&quot;sent&quot;</highlighted_element>
+  <language>Python</language>
+  <offset>16</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>376</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>active_only=True</highlighted_element>
+  <language>Python</language>
+  <offset>58</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_repairer.py</file>
+  <line>67</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_repairer.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>'r'</highlighted_element>
+  <language>Python</language>
+  <offset>33</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_repairer.py</file>
+  <line>158</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_repairer.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>'r'</highlighted_element>
+  <language>Python</language>
+  <offset>33</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_runner.py</file>
+  <line>437</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_runner.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>0</highlighted_element>
+  <language>Python</language>
+  <offset>103</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>209</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>orient=&quot;vertical&quot;</highlighted_element>
+  <language>Python</language>
+  <offset>55</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>283</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>orient=&quot;vertical&quot;</highlighted_element>
+  <language>Python</language>
+  <offset>48</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>342</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>mode='determinate'</highlighted_element>
+  <language>Python</language>
+  <offset>70</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>361</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>orient=&quot;vertical&quot;</highlighted_element>
+  <language>Python</language>
+  <offset>68</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>470</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyArgumentEqualDefaultInspection" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">The function argument is equal to the default parameter value</problem_class>
+  <description>Argument equals to the default parameter value</description>
+  <highlighted_element>height=10</highlighted_element>
+  <language>Python</language>
+  <offset>98</offset>
+  <length>9</length>
+</problem>
+</problems>

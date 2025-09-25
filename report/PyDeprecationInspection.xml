@@ -1,0 +1,158 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/config.py</file>
+  <line>132</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/config.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>The `dict` method is deprecated; use `model_dump` instead.</description>
+  <highlighted_element>dict</highlighted_element>
+  <language>Python</language>
+  <offset>27</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>33</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).</description>
+  <highlighted_element>utcnow</highlighted_element>
+  <language>Python</language>
+  <offset>51</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>34</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).</description>
+  <highlighted_element>utcnow</highlighted_element>
+  <language>Python</language>
+  <offset>51</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>34</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).</description>
+  <highlighted_element>utcnow</highlighted_element>
+  <language>Python</language>
+  <offset>77</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>55</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).</description>
+  <highlighted_element>utcnow</highlighted_element>
+  <language>Python</language>
+  <offset>51</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>72</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).</description>
+  <highlighted_element>utcnow</highlighted_element>
+  <language>Python</language>
+  <offset>51</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>85</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).</description>
+  <highlighted_element>utcnow</highlighted_element>
+  <language>Python</language>
+  <offset>50</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>96</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).</description>
+  <highlighted_element>utcnow</highlighted_element>
+  <language>Python</language>
+  <offset>51</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>112</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).</description>
+  <highlighted_element>utcnow</highlighted_element>
+  <language>Python</language>
+  <offset>51</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>112</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).</description>
+  <highlighted_element>utcnow</highlighted_element>
+  <language>Python</language>
+  <offset>77</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>268</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).</description>
+  <highlighted_element>utcnow</highlighted_element>
+  <language>Python</language>
+  <offset>46</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>334</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).</description>
+  <highlighted_element>utcnow</highlighted_element>
+  <language>Python</language>
+  <offset>46</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>549</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyDeprecationInspection" severity="WARNING" attribute_key="DEPRECATED_ATTRIBUTES">Deprecated function, class, or module</problem_class>
+  <description>datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).</description>
+  <highlighted_element>utcnow</highlighted_element>
+  <language>Python</language>
+  <offset>55</offset>
+  <length>6</length>
+</problem>
+</problems>

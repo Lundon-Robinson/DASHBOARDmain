@@ -1,0 +1,230 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/Bulk Mail.py</file>
+  <line>294</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/Bulk Mail.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'bool', got 'int' instead</description>
+  <highlighted_element>underline=underline</highlighted_element>
+  <language>Python</language>
+  <offset>28</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>185</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'list[Cardholder]', got 'list[type[Cardholder]]' instead</description>
+  <highlighted_element>query.all()</highlighted_element>
+  <language>Python</language>
+  <offset>19</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>225</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'list[Transaction]', got 'list[type[Transaction]]' instead</description>
+  <highlighted_element>query.order_by(Transaction.transaction_date.desc()).all()</highlighted_element>
+  <language>Python</language>
+  <offset>19</offset>
+  <length>57</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>294</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'str | Buffer | SupportsInt | SupportsIndex | SupportsTrunc', got 'Column[str]' instead</description>
+  <highlighted_element>setting.setting_value</highlighted_element>
+  <language>Python</language>
+  <offset>27</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>296</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'str | Buffer | SupportsFloat | SupportsIndex', got 'Column[str]' instead</description>
+  <highlighted_element>setting.setting_value</highlighted_element>
+  <language>Python</language>
+  <offset>29</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/core/database.py</file>
+  <line>301</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/core/database.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'str | bytes | bytearray', got 'Column[str]' instead</description>
+  <highlighted_element>setting.setting_value</highlighted_element>
+  <language>Python</language>
+  <offset>34</offset>
+  <length>21</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>490</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'ColumnElement[bool] | _HasClauseElement[bool] | SQLCoreOperations[bool] | ExpressionElementRole[bool] | TypedColumnsClauseRole[bool] | () -&gt; ColumnElement[bool] | LambdaElement', got 'bool' instead</description>
+  <highlighted_element>EmailLog.status == 'sent'</highlighted_element>
+  <language>Python</language>
+  <offset>20</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>494</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'ColumnElement[bool] | _HasClauseElement[bool] | SQLCoreOperations[bool] | ExpressionElementRole[bool] | TypedColumnsClauseRole[bool] | () -&gt; ColumnElement[bool] | LambdaElement', got 'bool' instead</description>
+  <highlighted_element>EmailLog.status == 'failed'</highlighted_element>
+  <language>Python</language>
+  <offset>20</offset>
+  <length>27</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/email_handler.py</file>
+  <line>501</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/email_handler.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'ColumnElement[bool] | _HasClauseElement[bool] | SQLCoreOperations[bool] | ExpressionElementRole[bool] | TypedColumnsClauseRole[bool] | () -&gt; ColumnElement[bool] | LambdaElement', got 'bool' instead</description>
+  <highlighted_element>EmailLog.status == 'sent'</highlighted_element>
+  <language>Python</language>
+  <offset>20</offset>
+  <length>25</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>245</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'Literal[&quot;left&quot;, &quot;right&quot;, &quot;inner&quot;, &quot;outer&quot;, &quot;cross&quot;]', got 'str' instead</description>
+  <highlighted_element>how=merge_strategy</highlighted_element>
+  <language>Python</language>
+  <offset>54</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/excel_handler.py</file>
+  <line>281</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/excel_handler.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'ColumnElement[bool] | _HasClauseElement[bool] | SQLCoreOperations[bool] | ExpressionElementRole[bool] | TypedColumnsClauseRole[bool] | () -&gt; ColumnElement[bool] | LambdaElement', got 'bool' instead</description>
+  <highlighted_element>Cardholder.id == cardholder_id</highlighted_element>
+  <language>Python</language>
+  <offset>16</offset>
+  <length>30</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/script_runner.py</file>
+  <line>391</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/script_runner.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'ColumnElement[bool] | _HasClauseElement[bool] | SQLCoreOperations[bool] | ExpressionElementRole[bool] | TypedColumnsClauseRole[bool] | () -&gt; ColumnElement[bool] | LambdaElement', got 'bool' instead</description>
+  <highlighted_element>DBScriptExecution.script_name == execution.script_info.name</highlighted_element>
+  <language>Python</language>
+  <offset>20</offset>
+  <length>59</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>647</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Parameter 'args' unfilled, expected '*tuple[]'</description>
+  <highlighted_element>)</highlighted_element>
+  <language>Python</language>
+  <offset>56</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>653</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Parameter 'args' unfilled, expected '*tuple[]'</description>
+  <highlighted_element>)</highlighted_element>
+  <language>Python</language>
+  <offset>47</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>673</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Parameter 'args' unfilled, expected '*tuple[]'</description>
+  <highlighted_element>)</highlighted_element>
+  <language>Python</language>
+  <offset>49</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>689</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Parameter 'args' unfilled, expected '*tuple[]'</description>
+  <highlighted_element>)</highlighted_element>
+  <language>Python</language>
+  <offset>56</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>730</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'int | Literal[&quot;end&quot;]', got 'str' instead</description>
+  <highlighted_element>tk.END</highlighted_element>
+  <language>Python</language>
+  <offset>45</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>806</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'int | Literal[&quot;end&quot;]', got 'str' instead</description>
+  <highlighted_element>tk.END</highlighted_element>
+  <language>Python</language>
+  <offset>41</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/ui/main_window.py</file>
+  <line>822</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/ui/main_window.py" />
+  <problem_class id="PyTypeCheckerInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect type</problem_class>
+  <description>Expected type 'int | Literal[&quot;end&quot;]', got 'str' instead</description>
+  <highlighted_element>tk.END</highlighted_element>
+  <language>Python</language>
+  <offset>49</offset>
+  <length>6</length>
+</problem>
+</problems>

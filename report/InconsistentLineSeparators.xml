@@ -1,0 +1,26 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/script.js</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/script.js" />
+  <problem_class id="InconsistentLineSeparators" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inconsistent line separators</problem_class>
+  <description>Line separators in the current file (\n) differ from the project defaults (\r\n)</description>
+  <highlighted_element>/* * Copyright 2000-2016 JetBrains s.r.o. * * Licensed under the Apache License, Version 2.0 (the...</highlighted_element>
+  <language>TEXT</language>
+  <offset>0</offset>
+  <length>876</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/styles.css</file>
+  <line>1</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/styles.css" />
+  <problem_class id="InconsistentLineSeparators" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Inconsistent line separators</problem_class>
+  <description>Line separators in the current file (\n) differ from the project defaults (\r\n)</description>
+  <highlighted_element>/* Copyright 2000-2024 JetBrains s.r.o. and contributors. Use of this source code is governed by the...</highlighted_element>
+  <language>TEXT</language>
+  <offset>0</offset>
+  <length>1628</length>
+</problem>
+</problems>

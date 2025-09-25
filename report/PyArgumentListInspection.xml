@@ -1,0 +1,26 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>96</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyArgumentListInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect call arguments</problem_class>
+  <description>Unexpected argument(s). Possible callees: AIAssistant._handle_generate_statements(user_input: str, params: dict[str, Any]) AIAssistant._handle_send_emails(user_input: str, params: dict[str, Any]) AIAssistant._handle_analyze_logs(user_input: str, params: dict[str, Any]) AIAssistant._handle_run_script(user_input: str, params: dict[str, Any]) AIAssistant._handle_get_status(user_input: str, params: dict[str, Any])</description>
+  <highlighted_element>(user_input, params)</highlighted_element>
+  <language>Python</language>
+  <offset>44</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/modules/ai_assistant.py</file>
+  <line>172</line>
+  <module>DASHBOARDmain</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/modules/ai_assistant.py" />
+  <problem_class id="PyArgumentListInspection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect call arguments</problem_class>
+  <description>Unexpected argument(s). Possible callees: AIAssistant._handle_generate_statements(user_input: str, params: dict[str, Any]) AIAssistant._handle_send_emails(user_input: str, params: dict[str, Any]) AIAssistant._handle_analyze_logs(user_input: str, params: dict[str, Any]) AIAssistant._handle_run_script(user_input: str, params: dict[str, Any]) AIAssistant._handle_get_status(user_input: str, params: dict[str, Any])</description>
+  <highlighted_element>(user_input, params)</highlighted_element>
+  <language>Python</language>
+  <offset>36</offset>
+  <length>20</length>
+</problem>
+</problems>
