@@ -708,7 +708,7 @@ class ExcelHandler:
                 if existing:
                     # Update existing cardholder
                     with self.db_manager.get_session() as session:
-                        existing.name = str(row.get('FullName', existing.name))
+                        existing.name = str(row.get('name', existing.name))  # Use 'name' not 'FullName'
                         existing.email = str(row.get('email', existing.email))
                         existing.department = str(row.get('department', existing.department) if pd.notna(row.get('department')) else existing.department)
                         existing.manager_email = str(row.get('manager_email', existing.manager_email) if pd.notna(row.get('manager_email')) else existing.manager_email)
@@ -719,7 +719,7 @@ class ExcelHandler:
                     # Create new cardholder
                     self.db_manager.create_cardholder(
                         card_number=str(row.get('card_number', f"TEMP_{synced_count}")),
-                        name=str(row.get('FullName', 'Unknown')),
+                        name=str(row.get('name', 'Unknown')),  # Use 'name' not 'FullName'
                         email=str(row.get('email', '')),
                         manager_email=str(row.get('manager_email', '') if pd.notna(row.get('manager_email')) else None),
                         department=str(row.get('department', '') if pd.notna(row.get('department')) else None),
