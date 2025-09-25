@@ -1,0 +1,9 @@
+2025-09-25 11:23:43 | INFO     | src.core.logger:info:96 - Logger test message
+2025-09-25 11:25:39 | INFO     | src.core.logger:info:96 - Scanning Create Statements.py
+2025-09-25 11:25:39 | INFO     | src.core.logger:info:96 - Scanning process_delegation.py
+2025-09-25 11:25:39 | INFO     | src.core.logger:info:96 - Scanning gui.py
+2025-09-25 11:25:39 | INFO     | src.core.logger:info:96 - Scanning Bulk Mail.py
+2025-09-25 11:25:39 | INFO     | src.core.logger:info:96 - Found 49 total issues across all scripts
+2025-09-25 11:25:55 | INFO     | src.core.logger:info:96 - Starting repair of gui.py
+2025-09-25 11:25:55 | INFO     | src.core.logger:info:96 - Backup created: data/script_backups/gui.py.backup
+2025-09-25 11:25:55 | INFO     | src.core.logger:info:96 - Repaired 0/2 issues in gui.py
