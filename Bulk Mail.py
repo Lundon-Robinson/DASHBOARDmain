@@ -6,6 +6,14 @@ from tkinter import ttk, filedialog, messagebox, font
 import traceback
 import datetime
 
+# Import configuration
+try:
+    from src.core.config import config
+    EXCEL_PATH = config.paths.cardholder_list_file
+except ImportError:
+    # Fallback for when running standalone
+    EXCEL_PATH = r"\\reiltys\iomgroot\DeptShare_DHSS_Nobles\Management\Director of Finance, Performance & Delivery\16. Manx Care\FAS DSC\Purchase Cards info\Card Holder List\Purchase cardholder list DSC.xls"
+
 # Defensive import so if pywin32 is missing we log a clear error and raise.
 try:
     import win32com.client as win32
@@ -19,7 +27,6 @@ except Exception as ex:
     raise ImportError(msg) from ex
 
 # --- Configuration ---
-EXCEL_PATH = r"\\reiltys\iomgroot\DeptShare_DHSS_Nobles\Management\Director of Finance, Performance & Delivery\16. Manx Care\FAS DSC\Purchase Cards info\Card Holder List\Purchase cardholder list DSC.xls"
 FALLBACK_PATHS = [
     r"/mnt/data/Purchase cardholder list DHSC.xlsx",
     os.path.join(os.getcwd(), "Purchase cardholder list DHSC.xlsx"),

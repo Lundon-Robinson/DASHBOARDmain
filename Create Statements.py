@@ -7,6 +7,14 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 from tkinter import ttk
 
+# Import configuration
+try:
+    from src.core.config import config
+    CARDHOLDER_LIST_FILE = config.paths.cardholder_list_file
+except ImportError:
+    # Fallback for when running standalone
+    CARDHOLDER_LIST_FILE = r"\\reiltys\iomgroot\DeptShare_DHSS_Nobles\Management\Director of Finance, Performance & Delivery\16. Manx Care\FAS DSC\Purchase Cards info\Card Holder List\Purchase cardholder list DSC.xls"
+
 # Local log file for user-facing diagnostics
 LOG_FILE = r"C:\Users\NADLUROB\Desktop\Dash\log.txt"
 
@@ -330,7 +338,7 @@ DEFAULTS = {
     "process_template_file": r"C:\Users\NADLUROB\Desktop\test\NEW Process Template DSC 2025.xlsm",
     "base_blank_file": r"C:\Users\NADLUROB\Desktop\test\Blank - Active from September 2024 .xlsx",
     "output_folder": r"C:\Users\NADLUROB\Desktop\test\output",
-    "cardholder_list_file": r"\\reiltys\iomgroot\DeptShare_DHSS_Nobles\Management\Director of Finance, Performance & Delivery\16. Manx Care\FAS DSC\Purchase Cards info\Card Holder List\Purchase cardholder list DSC.xls",
+    "cardholder_list_file": CARDHOLDER_LIST_FILE,
 }
 
 def browse_file(entry_widget):
