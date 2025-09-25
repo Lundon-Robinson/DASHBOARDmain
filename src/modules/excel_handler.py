@@ -219,13 +219,11 @@ class ExcelHandler:
                     first_name_col = df.iloc[:, 4] if len(df.columns) > 4 else pd.Series()
                     last_name_col = df.iloc[:, 5] if len(df.columns) > 5 else pd.Series()
                     
-                    # Create full name
+                    # Create full name with proper NaN handling
                     if not first_name_col.empty and not last_name_col.empty:
-                        cleaned_df['FullName'] = (
-                            first_name_col.astype(str).str.replace('-', ' ').str.strip() + 
-                            " " + 
-                            last_name_col.astype(str).str.strip()
-                        )
+                        first_clean = first_name_col.fillna('').astype(str).str.replace('-', ' ').str.strip()
+                        last_clean = last_name_col.fillna('').astype(str).str.strip()
+                        cleaned_df['FullName'] = (first_clean + " " + last_clean).str.strip()
                 except Exception as e:
                     logger.warning(f"Failed to create FullName from position: {e}")
             
@@ -233,17 +231,38 @@ class ExcelHandler:
             if len(df.columns) > 7:
                 try:
                     email_col = df.iloc[:, 7]  # Column H (8th column)
-                    cleaned_df['email_data'] = email_col.astype(str)
+                    
+                    # Handle NaN/None values first, then convert to string for str operations
+                    email_col_clean = email_col.fillna('').astype(str)
+                    cleaned_df['email_data'] = email_col_clean
                     
                     # Split email data on semicolons to get cardholder and manager emails
-                    cleaned_df['cardholder_email'] = email_col.astype(str).str.split(';').str[0].str.strip()
-                    cleaned_df['manager_email'] = email_col.astype(str).str.split(';').str[1].str.strip()
+                    # Use safe string operations with proper NaN handling
+                    email_split = email_col_clean.str.split(';', expand=True)
+                    
+                    # Extract cardholder email (first part)
+                    if len(email_split.columns) >= 1:
+                        cleaned_df['cardholder_email'] = email_split[0].fillna('').str.strip()
+                    else:
+                        cleaned_df['cardholder_email'] = ''
+                    
+                    # Extract manager email (second part) 
+                    if len(email_split.columns) >= 2:
+                        cleaned_df['manager_email'] = email_split[1].fillna('').str.strip()
+                    else:
+                        cleaned_df['manager_email'] = ''
+                        
                 except Exception as e:
                     logger.warning(f"Failed to process email column: {e}")
+                    # Set default empty values if processing fails
+                    cleaned_df['cardholder_email'] = ''
+                    cleaned_df['manager_email'] = ''
         
         # Handle named columns if they exist
         if 'First Name' in df.columns and 'Last Name' in df.columns:
-            cleaned_df['FullName'] = df['First Name'].astype(str) + " " + df['Last Name'].astype(str)
+            first_clean = df['First Name'].fillna('').astype(str).str.strip()
+            last_clean = df['Last Name'].fillna('').astype(str).str.strip()
+            cleaned_df['FullName'] = (first_clean + " " + last_clean).str.strip()
         
         # Map common column names to standard names
         column_mapping = {
@@ -283,27 +302,32 @@ class ExcelHandler:
         
         # Clean up email addresses - remove NaN and invalid entries
         if 'email' in renamed_df.columns:
-            renamed_df['email'] = renamed_df['email'].astype(str).str.strip()
-            renamed_df['email'] = renamed_df['email'].replace(['nan', 'None', ''], None)
-            # Basic email validation
-            renamed_df.loc[~renamed_df['email'].str.contains('@', na=False), 'email'] = None
+            # Handle NaN values first, then process as strings
+            renamed_df['email'] = renamed_df['email'].fillna('').astype(str).str.strip()
+            renamed_df['email'] = renamed_df['email'].replace(['nan', 'None', ''], '')
+            # Basic email validation - only keep emails with @ symbol
+            email_mask = renamed_df['email'].str.contains('@', na=False) & (renamed_df['email'] != '')
+            renamed_df.loc[~email_mask, 'email'] = ''
         
         if 'manager_email' in renamed_df.columns:
-            renamed_df['manager_email'] = renamed_df['manager_email'].astype(str).str.strip()
-            renamed_df['manager_email'] = renamed_df['manager_email'].replace(['nan', 'None', ''], None)
-            renamed_df.loc[~renamed_df['manager_email'].str.contains('@', na=False), 'manager_email'] = None
+            # Handle NaN values first, then process as strings
+            renamed_df['manager_email'] = renamed_df['manager_email'].fillna('').astype(str).str.strip()
+            renamed_df['manager_email'] = renamed_df['manager_email'].replace(['nan', 'None', ''], '')
+            # Basic email validation - only keep emails with @ symbol
+            manager_email_mask = renamed_df['manager_email'].str.contains('@', na=False) & (renamed_df['manager_email'] != '')
+            renamed_df.loc[~manager_email_mask, 'manager_email'] = ''
         
         # Clean up names
         if 'name' in renamed_df.columns:
-            renamed_df['name'] = renamed_df['name'].astype(str).str.strip()
-            renamed_df['name'] = renamed_df['name'].replace(['nan', 'None'], '')
+            renamed_df['name'] = renamed_df['name'].fillna('').astype(str).str.strip()
+            renamed_df['name'] = renamed_df['name'].replace(['nan', 'None', ''], '')
         
-        # Remove rows with no name or email
+        # Remove rows with no name OR email (more lenient filtering)
+        # At least one of name or email should be present and valid
         before_count = len(renamed_df)
         renamed_df = renamed_df[
-            (renamed_df['name'].notna()) & 
-            (renamed_df['name'] != '') & 
-            (renamed_df['email'].notna())
+            ((renamed_df['name'].notna()) & (renamed_df['name'] != '')) | 
+            ((renamed_df['email'].notna()) & (renamed_df['email'] != '') & (renamed_df['email'].str.contains('@', na=False)))
         ]
         after_count = len(renamed_df)
         
